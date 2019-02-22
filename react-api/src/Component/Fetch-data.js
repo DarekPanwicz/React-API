@@ -1,9 +1,10 @@
 import React from 'react'
 
-const apiConnection=() => {
+const apiConnection=(props) => {
     return(
         <div>
-            <p>Test message </p>
+            <p>Fetching data from SWAPI</p>
+            <h1>{props.apitext}</h1>
         </div>
     )
 }
